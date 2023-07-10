@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.feature_selection import SelectKBest, f_regression
 
 # Open the raster file and return a Dataset object
-raster_file = 'correlation_matrix/MODIS_indices_20230526.tif'
+raster_file = 'correlation_matrix/MODIS_indices_20230526.tif' # add your desired file here that includes multiple indices
 raster_dataset = gdal.Open(raster_file)
 
 # Access the raster data using the ReadAsArray() method
